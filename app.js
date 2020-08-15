@@ -29,10 +29,10 @@ app.use(bodyParser.json());
 //handle the cors origin
 //as of now put as all access 
 app.use((req, res, next) => {
-    res.header('Access-Control-Allow-Origin','*');
+    res.header('Access-Control-Allow-Origin','http://localhost:3000');
     res.header(
         'Access-Control-Allow-Headers',
-        'Origin, X-request-With, Content-Type, Accept, Authorization'
+        'Origin, X-Requested-With, Content-Type, Accept'
     );
     if (req.method === 'OPTIONS'){
         res.header(

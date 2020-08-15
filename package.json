@@ -1,5 +1,5 @@
 {
-  "name": "eatpanda",
+  "name": "ecommerce-nodejs",
   "version": "1.0.0",
   "description": "A Node.js RESTful API tutorial project",
   "main": "index.js",
